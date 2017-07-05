@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+        .menu {
+            color: firebrick;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        h3{
+            color: black;
+            font-weight: bold;
+        }
+        </style>
         <title>Home Page</title>
     </head>
     <body>
+        <div class="header">
         <center><h1>La Botana</h1></center><hr><br/>
+        </div>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restContact.html">Contact Us</a><br/><br/>
         <hr>
         <center>
+        <div class="menu">
         <table>
                 <tr>
                     <th><h3>Wings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></th>
@@ -47,6 +63,7 @@
                     <td><center></center></td>
                     <td><center></center></td>
                 </tr>
+        </table>
         <table>
                 <tr>
                     <th><h3>Baby Back Ribs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></th>
@@ -79,14 +96,17 @@
                     <td><center>29</center></td>
                 </tr>
         </table>
+        </div>
         <br/><br/>
         <hr>
         </center>
+        <div class="footer">
         <p>
             <center>
                 1234 Manhattan St. Minneapolis, MN 55111<br/>
                 Telephone Number: 555-555-5555
             </center>
         </p>
+        </div>
     </body>
 </html>
