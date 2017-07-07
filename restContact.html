@@ -3,27 +3,42 @@
     <head>
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <title>Contact Us</title>
+        <style>
+        #FullNameLabel, #EmailLabel, #PhoneLabel{
+            font-weight: bold;
+        }
+        </style>
     </head>
+    <header>
+        <p>La Botana</p>
+    </header>
     <body>
-        <div class="header">
-        <center><h1>La Botana</h1></center><hr><br/>
-        </div>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="restContact.html">Contact Us</a><br/><br/>
         <hr><br/><br/>
-        <form action="fakePage.html" method="POST">
+        <form action="#" method="POST">
             <center>
-            Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="name"/><br/><br/>
-            Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="email"/><br/><br/>
-            Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="phone"/><br/><br/>
-            Reason for Inquiry:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <select name="inquiry">
+            <div class="form">
+                <label id="FullNameLabel" for="FullName">Full Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input id="FullName" name="FullName" type="text" required/><br/><br/>
+            </div>
+            <div class="form">
+                <label id="EmailLabel" for="Email">Email address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input id="Email" name="Email" type="text" required/><br/><br/>
+            </div>
+            <div class="form">
+                <label id="PhoneLabel" for="Phone">Phone Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input id="Phone" name="Phone" type="text" required/><br/><br/>
+            </div>
+            Reason for Inquiry: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <select name="inquiry">
                 <option value="Catering">Catering</option>
                 <option value="PrivateParty">Private Party</option>
                 <option value="Feedback">Feedback</option>
                 <option value="Other">Other</option>
-                </select><br/><br/>
+            </select><br/><br/>
             Additional Information:<textarea name="information"></textarea><br/><br/>
             Have you been to the Restaurant?: <input type="radio" name="answer" value="No" checked/>No
                                               <input type="radio" name="answer" value="Yes"/>Yes<br/><br/>
@@ -34,14 +49,14 @@
                                       <input type="checkbox" name="days" value="F"/>F<br/><br/>
             <input type="submit" value="Send Request"/>
             </center>
-        </form><br/><br/><br/><br/><hr>
-        <div class="footer">
+        </form><br/><br/><hr>
+        <footer>
         <p>
             <center>
                 1234 Manhattan St. Minneapolis, MN 55111<br/>
                 Telephone Number: 555-555-5555
             </center>
         </p>
-        </div>
+        </footer>
     </body>
 </html>
