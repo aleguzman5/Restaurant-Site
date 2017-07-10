@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <title>Home Page</title>
         <style>
         .homeBody{
             background-color: burlywood;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            color: firebrick;
         }
         </style>
     </head>
@@ -13,25 +28,41 @@
         <p>La Botana</p>
     </header>
     <body>
-        <div class="Navigation">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restContact.html">Contact Us</a>
-        </div><br/>
+    
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="restHome.html"><span class="glyphicon glyphicon-home"></span></a><li>
+            <li><a href="restMenu.html">Menu</a></li>
+            <li><a href="restContact.html">Contact Us</a></li>
+        </ul><hr>
+
         <div class="homeBody"><br/>
-        <center><img src="images/laBotana.jpg" style="width: 400px;height: 150px;"/></center>
-        <p>
-            <center>This is a restaurant where steak is the star. <br/>
-            La Botana steaks arethe finest custom-aged U.S. Prime Midwestern Beef<br/>
-            known for its excellence in texture and flavor. We broil it exactly the way you<br/> 
-            like it at 900 degrees to lock in the corn-fed flavor. <br/>
-            We serve it sizzling on a heated plate so that it stays hot <br/>
-            throughout your meal. Service will be outstanding, <br/>
-            but provided in a casual, less intimidating fine-dining atmosphere.<br/>
-            </center>
-        </p><br/><br/><br/><hr>
+            <div class="img">
+                <center><img src="images/laBotana.jpg"/></center><br/><br/>
+            </div>
+        
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                This is a restaurant where <b>steak</b> is the star. 
+                La Botana steaks are the finest custom-aged <b><i>U.S. Prime Midwestern Beef</i></b>
+                known for its excellence in texture and flavor. We broil it exactly the way you
+                like it at 900 degrees to lock in the corn-fed flavor. 
+                We serve it sizzling on a heated plate so that it stays hot 
+                throughout your meal. Service will be outstanding, 
+                but provided in a casual, less intimidating fine-dining atmosphere.
+            </div>
+            <div class="col-sm-3"></div>
+        </div><br/><br/>
         </div>
+
+        <div class="jumbotron">
+            <h1>SOON: New Location in Edina</h1>
+            <p>On September 2017, we will be opening a new location in Edina, MN.<br/>
+               Same atmosphere, same menu, same prices!
+            </p>
+        </div>
+
         <footer>
         <p>
             <center>
@@ -40,5 +71,7 @@
             </center>
         </p>
         </footer>
+    </div>
+
     </body>
 </html>
