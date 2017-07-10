@@ -40,3 +40,14 @@ table.beverages{
   padding-left: 100px;
   padding-top: 5px;
 }
+
+.jumbotron {
+  background-color: firebrick;
+  color: white;
+}
+
+img {
+width: 70%;
+height: 60%;
+max-height: 300px;
+}
