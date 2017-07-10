@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <style>
         .menu {
@@ -19,123 +31,109 @@
         <p>La Botana</p>
     </header>
     <body>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restContact.html">Contact Us</a><br/><br/>
-        <hr>
+
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li><a href="restHome.html"><span class="glyphicon glyphicon-home"></span></a><li>
+            <li class="active"><a href="restMenu.html">Menu</a></li>
+            <li><a href="restContact.html">Contact Us</a></li>
+        </ul><hr>
         <center>
-        <div class="menu">
-        <table>
-                <tr>
-                    <th style="font-size:20px; color:black; text-align:center">Wings</th>
-                    <th style="font-size:20px; color:black; text-align:center">Sirloin Tips</th>
-                    <th style="font-size:20px; color:black; text-align:center">El Jefe Street Tacos</th>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">Oven baked and then fried crisp. </td>
-                    <td style="text-align: center;width: 320px;">All natural MN angus choice beef tips,</td>
-                    <td style="text-align: center;width: 320px;">Corn tortillas, lettuce, onions</td>                 
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">Choose one flavor: hot, mild, bbq,</td>
-                    <td style="text-align: center;width: 320px;">garnished with onion strings.</td>
-                    <td style="text-align: center;width: 320px;">pico de gallo, guacamole,</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">teriyaki, bourbon sriracha, honey garlic,</td>
-                    <td style="text-align: center;width: 320px;">Served with a side of chili garlic sauce.</td>
-                    <td style="text-align: center;width: 320px;">sour cream. Choose one style:</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">chili garlic sauce or scorpion wings.</td>
-                    <td style="text-align: center;width: 320px;">12</td>
-                    <td style="text-align: center;width: 320px;">fish, smoked pork or smoked brisket.</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">Ranch or bleu cheese.</td>
-                    <td style="text-align: center;width: 320px;"></td>
-                    <td style="text-align: center;width: 320px;">11</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">12</td>
-                    <td style="text-align: center;width: 320px;"></td>
-                    <td style="text-align: center;width: 320px;"></td>
-                </tr>
-        </table><br/>
-        <table>
-                <tr>
-                    <th style="font-size:20px; color:black; text-align:center">Baby Back Ribs</th>
-                    <th style="font-size:20px; color:black; text-align:center">New York Strip</th>
-                    <th style="font-size:20px; color:black; text-align:center">Ribeye</th>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">Slow cooked pork ribs brushed with</td>
-                    <td style="text-align: center;width: 320px;">12oz all natural MN angus choice beef</td>
-                    <td style="text-align: center;width: 320px;">16oz all natural MN angus choice beef,</td>                 
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">our BBQ Sauce, seasonal vegetable,</td>
-                    <td style="text-align: center;width: 320px;">served with seasonal vegetables and</td>
-                    <td style="text-align: center;width: 320px;">seasonal vegetable, choice of potato</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">choice of potato (mashed, baked,</td>
-                    <td style="text-align: center;width: 320px;">your choice of potato (mashed</td>
-                    <td style="text-align: center;width: 320px;">(mashed, baked, sweet potato fries</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">sweet potato fries or tater tots)</td>
-                    <td style="text-align: center;width: 320px;">baked, sweet potato fries, tater tots,</td>
-                    <td style="text-align: center;width: 320px;">or tater tots)</td>
-                </tr>
-                <tr>
-                    <td style="text-align: center;width: 320px;">Full Rack 25 Half Rack 15</td>
-                    <td style="text-align: center;width: 320px;">28</td>
-                    <td style="text-align: center;width: 320px;">29</td>
-                </tr>
-        </table><br/><br/>
-        <table class="beverages">
-            <thead>
-                <tr>
-                    <th style="color:black; font-size:20px; text-align:left">Beverages</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Root Beer</td>
-                    <td>$3.00</td>
-                </tr>
-                <tr>
-                    <td>Bottled Water</td>
-                    <td>$1.25</td>
-                </tr>
-                <tr>
-                    <td>Lemonade</td>
-                    <td>$1.00</td>
-                </tr>
-                <tr>
-                    <td>Iced Tea</td>
-                    <td>$1.25</td>
-                </tr>
-            </tbody>
-        </table>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Wings</h3>
+                    Oven baked and then fried crisp.
+                    Choose one flavor: hot, mild, bbq,
+                    teriyaki, bourbon sriracha, honey garlic,
+                    chili garlic sauce or scorpion wings.
+                    Ranch or bleu cheese.<br/>
+                    12
+                </div>
+                <div class="col-sm-4">
+                    <h3>Sirloin Tips</h3>
+                    All natural MN angus choice beef tips,
+                    garnished with onion strings.
+                    Served with a side of chili garlic sauce.<br/>
+                    12
+                </div>
+                <div class="col-sm-4">
+                    <h3>Jefe Street Tacos</h3>
+                    Corn tortillas, lettuce, onions
+                    pico de gallo, guacamole,
+                    sour cream. Choose one style:
+                    fish, smoked pork or smoked brisket.<br/>
+                    11
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Baby Back Ribs</h3>
+                    Slow cooked pork ribs brushed with
+                    our BBQ Sauce, seasonal vegetable,
+                    choice of potato (mashed, baked,
+                    sweet potato fries or tater tots)<br>
+                    <b><i>Full Rack</i></b> 25 <br/>
+                    <b><i>Half Rack</i></b> 15
+                </div>
+                <div class="col-sm-4">
+                    <h3>New York Strip</h3>
+                    12oz all natural MN angus choice beef
+                    served with seasonal vegetables and
+                    your choice of potato (mashed,
+                    baked, sweet potato fries or tater tots)
+                    <br/>
+                    28
+                </div>
+                <div class="col-sm-4">
+                    <h3>Rib Eye</h3>
+                    16oz all natural MN angus choice beef,
+                    seasonal vegetable, choice of potato
+                    (mashed, baked, sweet potato fries
+                    or tater tots)
+                    <br/>
+                    29
+                </div>
+            </div><br/><br/>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Beverages</h3>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">Root Beer</div>
+            <div class="col-sm-6">$3.00</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">Bottled Water</div>
+            <div class="col-sm-6">$1.25</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">Lemonade</div>
+            <div class="col-sm-6">$1.00</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">Iced Tea</div>
+            <div class="col-sm-6">$1.25</div>
+        </div>
+
         </center>
         </div>
-        <br/><br/>
+        <br/>
         <hr>
-        <footer>
+    </div>
+
+    </body>
+
+    <footer>
         <p>
             <center>
                 1234 Manhattan St. Minneapolis, MN 55111<br/>
                 Telephone Number: 555-555-5555
             </center>
         </p>
-        </footer>
-    </body>
+    </footer>
+
 </html>
