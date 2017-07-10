@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <title>Contact Us</title>
         <style>
@@ -13,11 +25,13 @@
         <p>La Botana</p>
     </header>
     <body>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="restContact.html">Contact Us</a><br/><br/>
-        <hr><br/><br/>
+
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li><a href="restHome.html"><span class="glyphicon glyphicon-home"></span></a><li>
+            <li><a href="restMenu.html">Menu</a></li>
+            <li class="active"><a href="restContact.html">Contact Us</a></li>
+        </ul><hr><br/>
         <form action="#" method="POST">
             <center>
             <div class="form">
@@ -49,14 +63,16 @@
                                       <input type="checkbox" name="days" value="F"/>F<br/><br/>
             <input type="submit" value="Send Request"/>
             </center>
-        </form><br/><br/><hr>
-        <footer>
+        </form>
+    </div>
+
+    </body><hr>
+    <footer>
         <p>
             <center>
                 1234 Manhattan St. Minneapolis, MN 55111<br/>
                 Telephone Number: 555-555-5555
             </center>
         </p>
-        </footer>
-    </body>
+    </footer>
 </html>
